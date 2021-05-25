@@ -51,10 +51,12 @@ In CSGO, in order to reduce latency between client and the server, a tick system
 
 * RCS - recoil control system
 
-* Exploits - By abusing the tickrate system in CSGO, we can have two exploits that could be used when playing HvH:
+* Exploits - By abusing the tickrate system in CSGO, we can have three exploits that could be used when playing HvH:
   * Doubletap. This will attempt to shoot two shots into one game tick, giving you a faster firerate, which would allow to kill enemy players faster. However the price would be sacrificing the accuracy, causing missing shot due to weapon spread. However this will not work with fakelag, thus fakelag will be diabled when using doubletap. Doubletap could be used in valve matchmaking servers, but won't be useful as you would use in hvh servers.
   
   * Hide shots. This will disable fakelag when you are shooting to the desired direction. With fakelag enabled, you "onshot" state will preserve longer and thus allowing enemy players to shoot you through the head easily as when you are shooting there is no anti-aim. However both doubletap and hide shots could not be used together.
+
+  * Fakeduck. This will disable the stamina you normally have on ducking. Hence you can duck and unduck multiple times in a second and your Head is hidden while you can still shoot like you are not ducking.
 
 ## Visuals
 
